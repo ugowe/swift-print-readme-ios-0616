@@ -3,6 +3,7 @@
 
 ## Learning Objectives - The student should be able to..
 * Explain the importance of being able to print your variables.
+* Explain where the print function displays the text.
 * Print a string literal  
 
 ```swift
