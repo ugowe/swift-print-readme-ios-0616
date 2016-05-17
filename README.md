@@ -47,7 +47,7 @@ In Swift, you can print a variable or a constant to the screen using the `print(
 
 After creating your new playground in Xcode, start by declaring three strings representing your favorite word, color, and musician. First ask yourself: Should these be _variables_ (declaring using `var`) or _constants_ (declared using `let`)? You probably feel pretty strongly about your favorite word, color, and musician, but your tastes may change over time, so let's declare them as variables for now. You should enter them in your playground file:
 
-```Swift
+```swift
 var favoriteWord = "mercurial"    // Use your own favorite word!
 var favoriteColor = "blue"        // Use your own favorite color!
 var favoriteMusician = "Nirvana"  // Use your own favorite musician!
@@ -69,7 +69,7 @@ Now you can show the results of printing out the variables you just created.
 
 Printing variables is easy: Just pass them to the `print()` function. You can do that by type `print(variable)`. Add these lines to the end of your playground to print the values of your variables:
 
-```Swift
+```swift
 print(favoriteWord)
 print(favoriteColor)
 print(favoriteMusician)
@@ -83,7 +83,7 @@ Now you will see your program's output in the bottom pane of the playground:
 
 Swift's `print()` function can be used to print anything, not just variables and constants. You can also print entire strings. Just like variables and constants, you print a string by passing it to the `print()` function. Put this in your playground file and see what happens:
 
-```Swift
+```swift
 print("I'm printing a string in Swift!")
 ```
 
@@ -91,7 +91,7 @@ You should see the string "I'm printing a string in Swift!" in the playground's 
 
 You can even print longer sentences using the `print()` function. There's no limit to what you can print! Try printing the sentence "Hi Mom! My favorite word is serendipity, my favorite color is green, and my favorite musician is Billy Joel." and see what happens:
 
-```Swift
+```swift
 print("Hi Mom! My favorite word is serendipity, my favorite color is green, and my favorite musician is Billy Joel.")
 ```
 
@@ -103,7 +103,7 @@ Guess what? You can! Swift has a very helpful feature to do combine strings and 
 
 String interpolation is easy in Swift. Inside a string, you can substitute in the value of a variable by placing that variable name within a `\` and surrounding it by parentheses. Here is a pretty simple example of string interpolation:
 
-```Swift
+```swift
 let color = "blue"
 print("The sky is \(color).")
 ```
@@ -116,7 +116,7 @@ Now that you know about string interpolation, can you figure out how to say hi t
 
 Try entering this into your playground file:
 
-```Swift
+```swift
 print("Hi Mom! My favorite word is \(favoriteWord), my favorite color is \(favoriteColor), and my favorite musician is \(favoriteMusician).")
 ```
 
@@ -124,7 +124,7 @@ Try creating other variables in your playground file and printing them out using
 
 String interpolation doesn't happen only in the `print()` function. You can use string interpolation anywhere you create a string—even when declaring one. Try creating a variable using string interpolation, then display it on the screen using the `print()` function. Here's an example:
 
-```Swift
+```swift
 var skySentence = "The sky is \(color)."
 print(skySentence)
 ```
