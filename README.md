@@ -99,7 +99,7 @@ print("Hi Mom! My favorite word is serendipity, my favorite color is green, and 
 
 At this point you may be thinking, "Wait a minute! Serependity doesn't exactly roll off the tongue, I hate green, and Billy Joel makes my ears bleed!" You've probably also remembered that you already declared variables to hold your favorite word, color, and musician, so why are you having to pledge your undying love for these things you don't like? Why can't you print out your own preferences?
 
-Guess what? You can! Swift has a very helpful feature to do combine strings and variables: _interpolation_. When you interpolate a string, you can mix in a variable (or constant) you declared before with a string. Swift will calculate a new string based on the one you provided and the variables or constants you wish to be interpolated.
+Guess what? You can! Swift has a very helpful feature to combine strings and variables: _interpolation_. When you interpolate a string, you can mix in a variable (or constant) you declared before along with a string. Swift will calculate a new string based on the one you provided along with the variables or constants you wish to be interpolated.
 
 String interpolation is easy in Swift. Inside a string, you can substitute in the value of a variable by placing that variable name within a `\` and surrounding it by parentheses. Here is a pretty simple example of string interpolation:
 
