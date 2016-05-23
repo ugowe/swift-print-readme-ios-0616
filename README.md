@@ -130,7 +130,7 @@ String interpolation doesn't happen only in the `print()` function. You can use 
 var skySentence = "The sky is \(color)."
 print(skySentence)
 
-// "The sky is blue."
+// prints "The sky is blue."
 ```
 
 String interpolation is a very useful part of Swift, and you will continue to use this fundamental feature in the rest of your Swift code.
