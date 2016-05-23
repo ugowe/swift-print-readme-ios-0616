@@ -67,7 +67,7 @@ Clicking that arrow will reveal the "Debug area", which is what Xcode calls the 
 
 Now you can show the results of printing out the variables you just created.
 
-Printing variables is easy: Just pass them to the `print()` function. You can do that by type `print(variable)`. Add these lines to the end of your playground to print the values of your variables:
+Printing variables is easy: Just pass them to the `print()` function. You can do that by typing `print(variable)`. Add these lines to the end of your playground to print the values of your variables:
 
 ```swift
 print(favoriteWord)
