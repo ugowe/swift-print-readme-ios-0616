@@ -118,6 +118,8 @@ Try entering this into your playground file:
 
 ```swift
 print("Hi Mom! My favorite word is \(favoriteWord), my favorite color is \(favoriteColor), and my favorite musician is \(favoriteMusician).")
+
+// prints "Hi Mom! My favorite word is mercurial, my favorite color is blue, and my favorite musician is Nirvana."
 ```
 
 Try creating other variables in your playground file and printing them out using the `print()` function and string interpolation.
@@ -127,6 +129,8 @@ String interpolation doesn't happen only in the `print()` function. You can use 
 ```swift
 var skySentence = "The sky is \(color)."
 print(skySentence)
+
+// "The sky is blue."
 ```
 
 String interpolation is a very useful part of Swift, and you will continue to use this fundamental feature in the rest of your Swift code.
