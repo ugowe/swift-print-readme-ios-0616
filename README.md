@@ -1,43 +1,15 @@
 # Print Function
 
-## Learning Objectives - The student should be able to..
+![Cyril](http://i.imgur.com/8yLE9Xe.jpg?1)
+
+> Better to write for yourself and have no public, than to write for the public and have no self. ~[Cyril Connolly](https://en.wikipedia.org/wiki/Cyril_Connolly)
+
+## Learning Objectives
 * Explain the importance of being able to print your variables.
 * Explain where the print function displays the text.
 * Print a string literal
-
-```swift
-print("Hello Pluto")
-``` 
-
 * Print a sentence using string interpolation.
-
-```swift
-let favoriteWord = "Serendipity" 
-let favoriteColor = "Green"
-let favoriteMusician = "Billy Joel"
-
-print("Hi Mom! My favorite word is \(favoriteWord), my favorite color is \(favoriteColor), and my favorite musician is \(favoriteMusician).")
-
-// prints "Hi Mom! My favorite word is serendipity, my favorite color is green, and my favorite musician is Billy Joel"
-```
-
 * Create a sentence to store in a variable using string interpolation - as follows:
-
-```swift
-let favoriteWord = "Serendipity"
-
-let favoriteSentence = "Hello everyone, how are you doing? My favorite word is \(favoriteWord)"
-
-print(favoriteSentence)
-// prints "Hello everyone, how are you doing? My favorite word is Serendipity"
-```
-
-## What the student can do at this point 
-* Create variables and constants only using String types 
-
-```swift
-let name = "Ned Stark"  // the student has seen this
-```
 
 ## Printing Values
 
