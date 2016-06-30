@@ -27,13 +27,13 @@ var favoriteMusician = "Nirvana"  // Use your own favorite musician!
 
 You'll see your values represented in the sidebar on the right side of your playground:
 
-![Playground file](.images/xcode1.png)
+![Playground file](http://i.imgur.com/iWNcAMe.png)
 
 Why do you see output if you haven't even called the `print()` function yet? It's important to note that the right sidebar in a playground file doesn't represent program _output_; rather, it's a look at how your program is working and what values different variables and constants have. If this were a real program being run outside of a playground file, you wouldn't see any output at all. Playgrounds are special in that they show you the state of your program at given moments, even if you're not explicitly outputting any data.
 
 However, a playground also allows you to see what would be printed to your screen if your program was run outside of a playground file. You can see that output by clicking the little upward-facing arrow at the bottom of the playground file:
 
-![Show the debug area](.images/xcode2.png)
+![Show the debug area](http://i.imgur.com/rZh8PH5.png)
 
 Clicking that arrow will reveal the "Debug area", which is what Xcode calls the part of the playground file that shows your program's output.
 
@@ -49,7 +49,7 @@ print(favoriteMusician)
 
 Now you will see your program's output in the bottom pane of the playground:
 
-![print() output](.images/xcode3.png)
+![print() output](http://i.imgur.com/URQTOag.png)
 
 ## Printing Strings
 
